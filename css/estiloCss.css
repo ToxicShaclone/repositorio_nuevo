@@ -168,26 +168,23 @@
       font-family: 'Gruppo', cursive;
 }
 
-.divMapa{
-  display:flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
   .divMapa img{
       width: 450px;
       height: 300px;
 }
 
   .divMapa h2{
-      text-align: center;
+      text-align: left;
       font-size: 2.5rem;
 }
 
-.baronNashor{
+.baronNashor img{
   width: 450px;
-  height: 450px;
+  height: 300px;
+}
+.baronNashor h2{
+  text-align: left;
+  font-size: 2.5rem;
 }
 
 
