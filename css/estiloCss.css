@@ -168,23 +168,27 @@
       font-family: 'Gruppo', cursive;
 }
 
-  .divMapa img{
-      width: 450px;
-      height: 300px;
+  .mapaImg img{
+      width: 80%;
+      height: 75%;
 }
 
   .divMapa h2{
-      text-align: left;
+      text-align: center;
       font-size: 2.5rem;
 }
 
 .baronNashor img{
-  width: 450px;
-  height: 300px;
+  width: 75%;
+  height: 80%;
 }
 .baronNashor h2{
   text-align: left;
   font-size: 2.5rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 
@@ -208,7 +212,6 @@
       text-align: center;
       transition-property: background-color;
       transition-duration: 2s;
-      transition-delay: 1s; 
 }
 
   .tarjetaContenido h2{
